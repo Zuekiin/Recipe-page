@@ -1,0 +1,157 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: outfit, sans-serif;
+  font-size: 16px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(30, 10%, 34%);
+}
+
+h1,
+h2 {
+  font-family: "Young serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-size: 1.8em !important;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+header {
+  padding: 50px 50px 0px 50px;
+}
+
+@media (max-width: 498px) {
+  h1 {
+    font-size: 2.2em;
+    padding: 0px 50px 0px 50px;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  header p {
+    padding: 0 50px;
+  }
+
+  h2 {
+    font-size: 1.5em !important;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+h2 {
+  font-size: 2em;
+}
+
+main {
+  max-width: 1440;
+  min-width: 375;
+  padding: 0px 50px 50px 50px;
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  padding: 26px 43.2px;
+  border-radius: 20px;
+}
+
+.prep h3 {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+p,
+li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+
+::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.prep-list > ::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 12px;
+}
+
+ul > li::marker {
+  font-size: 12px;
+}
+
+ol > li,
+ul > li {
+  padding-left: 1.5em;
+  margin-left: 1.2em;
+}
+
+ol > li:not(:last-child),
+ul > li:not(:last-child) {
+  padding-bottom: 0.6em;
+}
+
+ol > ::marker {
+  font-weight: 700;
+}
+
+.spacing {
+  margin-top: 30px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.nutrition-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 43.2px;
+  border-bottom: 1px solid hsla(32, 10%, 34%, 0.341);
+  padding-bottom: 1em;
+}
+
+.nutrition-grid p:nth-child(2n) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.line-break {
+  border-bottom: 1px solid hsla(32, 10%, 34%, 0.341);
+  margin-top: 30px;
+}
